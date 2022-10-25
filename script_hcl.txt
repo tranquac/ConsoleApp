@@ -1,4 +1,4 @@
 login localhost tranquac\Passw0rd! userpassword -acceptssl
 oa "C:\ConsoleApp\cicd.paf"
-scan result.ozasmt
+scan result_hcl_source.ozasmt
 quit

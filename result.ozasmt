@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AssessmentRun name="cicd - 10/25/22 4:54PM" version="10.0.8">
-	<AssessmentStats class_total="0" date="1666691647" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" max_vkloc="0.000000" method_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" total_excluded_findings="0" total_files="6" total_findings="0" total_high_finding="0" total_high_high_finding="0" total_high_low_finding="0" total_high_med_finding="0" total_low_finding="0" total_low_high_finding="0" total_low_low_finding="0" total_low_med_finding="0" total_med_finding="0" total_med_high_finding="0" total_med_low_finding="0" total_med_med_finding="0" vdensity="0.000000" vkloc="0.000000">
+<AssessmentRun name="cicd - 10/25/22 5:01PM" version="10.0.8">
+	<AssessmentStats class_total="0" date="1666692098" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" max_vkloc="0.000000" method_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" total_excluded_findings="0" total_files="6" total_findings="0" total_high_finding="0" total_high_high_finding="0" total_high_low_finding="0" total_high_med_finding="0" total_low_finding="0" total_low_high_finding="0" total_low_low_finding="0" total_low_med_finding="0" total_med_finding="0" total_med_high_finding="0" total_med_low_finding="0" total_med_med_finding="0" vdensity="0.000000" vkloc="0.000000">
 	</AssessmentStats>
 	<AssessmentConfig analysis_type="2" assessment_type="1" stop_on_error="false">
 		<ScanConfig description="This scan configuration uses typical (default) settings, and looks for all known vulnerabilities from all known types of input" identifier="Normal" is_added="false" is_shared="true" name="Normal scan">
@@ -21,11 +21,11 @@
 		<File id="7" value="C:\ConsoleApp\UnitTestProject\obj\Debug\netcoreapp3.1\UnitTestProject.AssemblyInfo.cs"/>
 	</FilePool>
 	<Assessment assessee_file="C:\ConsoleApp\cicd.paf" assessee_name="cicd" assessee_type="Application">
-		<AssessmentStats class_total="0" date="1666691647" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" method_total="0" owner_name="cicd" owner_type="Application" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+		<AssessmentStats class_total="0" date="1666692098" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" method_total="0" owner_name="cicd" owner_type="Application" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
 		<AssessmentOperations>
 		</AssessmentOperations>
 		<Assessment assessee_file="C:\ConsoleApp\cicd.ppf" assessee_name="cicd" assessee_type="Project">
-			<AssessmentStats class_total="0" configuration="Configuration 1" date="1666691647" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" method_total="0" owner_name="cicd" owner_type="Project" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+			<AssessmentStats class_total="0" configuration="Configuration 1" date="1666692098" duration="0" error_status="0" language_type="16" line_total="90" max_vdensity="0.000000" method_total="0" owner_name="cicd" owner_type="Project" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
 			<AssessmentOperations>
 			</AssessmentOperations>
 			<AsmntFile file_id="2">
@@ -49,46 +49,46 @@
 		</Assessment>
 	</Assessment>
 	<Messages>
-		<Message timestamp="10/25/22 16:54:07" type="AssessmentStatus">New scan started</Message>
-		<Message timestamp="10/25/22 16:54:07" type="AssessmentStatus">Scanning with Scan Configuration: Normal scan</Message>
-		<Message timestamp="10/25/22 16:54:07" type="AssessmentStatus"></Message>
-		<Message timestamp="10/25/22 16:54:07" type="AssessmentStatus">Scanning Project cicd ( 1 of 1 )</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing target ConsoleApp (1 of 1)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (1 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file ConsoleApp.AssemblyInfo.cs (2 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file Program.cs (3 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file UnitTestProject.AssemblyInfo.cs (5 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file UnitTest1.cs (6 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing target ConsoleApp (1 of 1)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (1 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file ConsoleApp.AssemblyInfo.cs (2 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file Program.cs (3 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file UnitTestProject.AssemblyInfo.cs (5 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:11" type="AssessmentStatus">Processing file UnitTest1.cs (6 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Analyzing...</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Running csharp scanner</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Preparing project for scan...</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning ConsoleApp.AssemblyInfo.cs (1 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning Program.cs (2 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning UnitTestProject.AssemblyInfo.cs (3 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (5 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Scanning UnitTest1.cs (6 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:14" type="AssessmentStatus">Running xamarin scanner</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Preparing project for scan...</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning ConsoleApp.AssemblyInfo.cs (1 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (2 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning UnitTestProject.AssemblyInfo.cs (3 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning Program.cs (4 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (5 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Scanning UnitTest1.cs (6 of 6)</Message>
-		<Message timestamp="10/25/22 16:54:15" type="AssessmentStatus">Applying machine learning...</Message>
-		<Message timestamp="10/25/22 16:54:16" type="AssessmentStatus">SAST analysis completed successfully</Message>
-		<Message timestamp="10/25/22 16:54:19" type="AssessmentStatus">Scanned application cicd : File(s) scanned: 6 Lines scanned: 90 Total findings: 0</Message>
-		<Message timestamp="10/25/22 16:54:19" type="AssessmentStatus">Scan completed: File(s) scanned: 6 Lines scanned: 90 Total findings: 0</Message>
-		<Message timestamp="10/25/22 16:54:19" type="AssessmentStatus">Elapsed Time - 0 Hour(s) 0 Minute(s) 12 Second(s)</Message>
+		<Message timestamp="10/25/22 17:01:38" type="AssessmentStatus">New scan started</Message>
+		<Message timestamp="10/25/22 17:01:38" type="AssessmentStatus">Scanning with Scan Configuration: Normal scan</Message>
+		<Message timestamp="10/25/22 17:01:38" type="AssessmentStatus"></Message>
+		<Message timestamp="10/25/22 17:01:38" type="AssessmentStatus">Scanning Project cicd ( 1 of 1 )</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing target ConsoleApp (1 of 1)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (1 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file ConsoleApp.AssemblyInfo.cs (2 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file Program.cs (3 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file UnitTestProject.AssemblyInfo.cs (5 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file UnitTest1.cs (6 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing target ConsoleApp (1 of 1)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (1 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file ConsoleApp.AssemblyInfo.cs (2 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file Program.cs (3 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file UnitTestProject.AssemblyInfo.cs (5 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:44" type="AssessmentStatus">Processing file UnitTest1.cs (6 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:47" type="AssessmentStatus">Analyzing...</Message>
+		<Message timestamp="10/25/22 17:01:47" type="AssessmentStatus">Running csharp scanner</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Preparing project for scan...</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning ConsoleApp.AssemblyInfo.cs (1 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (2 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning UnitTest1.cs (3 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (4 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning UnitTestProject.AssemblyInfo.cs (5 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning Program.cs (6 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Running xamarin scanner</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Preparing project for scan...</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning ConsoleApp.AssemblyInfo.cs (1 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (2 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning .NETCoreApp,Version=v3.1.AssemblyAttributes.cs (3 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning UnitTestProject.AssemblyInfo.cs (4 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning UnitTest1.cs (5 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Scanning Program.cs (6 of 6)</Message>
+		<Message timestamp="10/25/22 17:01:48" type="AssessmentStatus">Applying machine learning...</Message>
+		<Message timestamp="10/25/22 17:01:50" type="AssessmentStatus">SAST analysis completed successfully</Message>
+		<Message timestamp="10/25/22 17:01:52" type="AssessmentStatus">Scanned application cicd : File(s) scanned: 6 Lines scanned: 90 Total findings: 0</Message>
+		<Message timestamp="10/25/22 17:01:52" type="AssessmentStatus">Scan completed: File(s) scanned: 6 Lines scanned: 90 Total findings: 0</Message>
+		<Message timestamp="10/25/22 17:01:52" type="AssessmentStatus">Elapsed Time - 0 Hour(s) 0 Minute(s) 14 Second(s)</Message>
 	</Messages>
 	<MetricsFindings>
 	</MetricsFindings>
